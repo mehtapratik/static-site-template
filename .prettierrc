@@ -1,0 +1,5 @@
+# .prettierrc or .prettierrc.yaml
+printWidth: 120
+tabWidth: 3
+quoteProps: "preserve"
+trailingComma: "all"

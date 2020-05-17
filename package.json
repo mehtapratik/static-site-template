@@ -1,0 +1,24 @@
+{
+   "name": "static-site-template",
+   "version": "0.0.1",
+   "description": "Template for static websites based on HTML, (S)CSS and JavaScript.",
+   "main": "none",
+   "scripts": {
+      "build": "sass ./src/assets/scss/site.scss:./src/assets/site.css",
+      "watch": "npm run build -- --watch",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mehtapratik/static-site-template.git"
+   },
+   "author": "Pratik Mehta",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/mehtapratik/static-site-template/issues"
+   },
+   "homepage": "https://github.com/mehtapratik/static-site-template#readme",
+   "devDependencies": {
+      "sass": "^1.26.5"
+   }
+}
