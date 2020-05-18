@@ -4,7 +4,7 @@
    "description": "Template for static websites based on HTML, (S)CSS and JavaScript.",
    "main": "none",
    "scripts": {
-      "build": "sass ./src/assets/scss/site.scss:./src/assets/site.css",
+      "build": "sass ./src/assets/scss/site.scss:./src/assets/site.css --style=compressed",
       "watch": "npm run build -- --watch",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
